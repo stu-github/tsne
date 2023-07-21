@@ -25,7 +25,7 @@ plugins = ["Cython.Coverage"]
 omit = ["tsne/_generated_version.py", "tsne/tests/*"]
 
 [tool.black]
-target-version = ["py37", "py38"]
+target-version = ["py37", "py38", "py311"]
 exclude = '''
 (
     asv_bench/env

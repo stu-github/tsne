@@ -2,7 +2,7 @@ name: tsne
 channels:
   - conda-forge
 dependencies:
-  - python
+  - python=3.11
   - pip
 
   # Dev tools
